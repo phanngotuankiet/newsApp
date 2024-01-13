@@ -82,7 +82,7 @@ login.addEventListener("click", function () {
     saveToStorage("usernameCurrent", JSON.stringify(currentUser));
 
     // chuyển đến trang Home
-    window.location.href = "./newsApp/index.html";
+    window.location.href = "/index.html";
 
     // dòng này thử nghiệm console log
     console.log(currentUser);
