@@ -83,7 +83,7 @@ login.addEventListener("click", function () {
 
     // chuyển đến trang Home
     setTimeout(() => {
-      window.location.href = "https://phanngotuankiet.github.io/newsApp/pages/login.html";
+      window.location.href = "https://phanngotuankiet.github.io/newsApp/index.html";
     }, 1000);
 
     // dòng này thử nghiệm console log
