@@ -50,5 +50,7 @@ logout.addEventListener("click", function () {
   console.log(currentUser);
   alert("You have been logged out!");
   // chuyển trang đến màn hình login
-  window.location.href = "../pages/login.html";
+  setTimeout(function () {
+    window.location.href = "../pages/login.html";
+  }, 3000);
 });
