@@ -32,6 +32,7 @@ saveChanges.addEventListener("click", function () {
     settingsArr.push(data1);
     // copy 1 bản vào storage sau khi đã push
     saveToStorage("newsperpage", JSON.stringify(settingsArr));
+    alert("Save changes successfully!");
   }
   // làm sạch ô input sau khi nhập xong
   newsPerPage.value = "";
