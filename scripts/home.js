@@ -49,8 +49,10 @@ logout.addEventListener("click", function () {
   localStorage.removeItem("usernameCurrent");
   console.log(currentUser);
   alert("You have been logged out!");
+
   setTimeout(function () {
     // chuyển trang đến màn hình login
-    window.location.href = "./pages/login.html";
+    // window.location.href = "./pages/login.html";
+    window.location.href = "https://phanngotuankiet.github.io/newsApp/pages/login.html";
   }, 1000);
 });
