@@ -83,8 +83,8 @@ login.addEventListener("click", function () {
 
     // chuyển đến trang Home
     setTimeout(() => {
-      window.location.href = "/index.html";
-    }, 3000);
+      window.location.href = "../index.html";
+    }, 2000);
 
     // dòng này thử nghiệm console log
     console.log(currentUser);
