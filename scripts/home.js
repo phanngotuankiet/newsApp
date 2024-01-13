@@ -52,5 +52,5 @@ logout.addEventListener("click", function () {
   // chuyển trang đến màn hình login
   setTimeout(function () {
     window.location.href = "../pages/login.html";
-  }, 3000);
+  }, 2000);
 });
