@@ -48,7 +48,7 @@ logout.addEventListener("click", function () {
   // currentUser.length = 0;
   localStorage.removeItem("usernameCurrent");
   console.log(currentUser);
-
+  alert("You have been logged out!");
   // chuyển trang đến màn hình login
   window.location.href = "../newsApp/pages/login.html";
 });
