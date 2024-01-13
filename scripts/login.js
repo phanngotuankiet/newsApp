@@ -74,7 +74,7 @@ login.addEventListener("click", function () {
   };
   if (validateData()) {
     alert(
-      "Đăng nhập thành công!"
+      "Successfully logged in as " + data1.usernameCurrent + "!"
     );
 
     currentUser.push(data1);
@@ -88,6 +88,8 @@ login.addEventListener("click", function () {
 
     // dòng này thử nghiệm console log
     console.log(currentUser);
+  } else {
+    alert("False login credentials!");
   }
 });
 
