@@ -49,8 +49,8 @@ logout.addEventListener("click", function () {
   localStorage.removeItem("usernameCurrent");
   console.log(currentUser);
   alert("You have been logged out!");
-  // chuyển trang đến màn hình login
   setTimeout(function () {
+    // chuyển trang đến màn hình login
     window.location.href = "../pages/login.html";
-  }, 2000);
+  }, 1000);
 });
