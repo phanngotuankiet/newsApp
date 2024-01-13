@@ -50,5 +50,5 @@ logout.addEventListener("click", function () {
   console.log(currentUser);
 
   // chuyển trang đến màn hình login
-  window.location.href = "../pages/login.html";
+  window.location.href = "../newsApp/pages/login.html";
 });
